@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/catalogo.css">
+  <title>TechRoom</title>
+</head>
+<body>
+  <header>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>Tech Room</h1>
+      <p>Infogamer, o melhor do hardware para você</p> 
+    </div>
+  </header>
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        <h1 class="my-4">Peças disponiveis</h1>
+        <div class="list-group">
+          <a href="../index.html" class="list-group-item"><i class="fas fa-home"></i> HOME</a>
+          <a href="computadores.html" class="list-group-item"><i class="fas fa-desktop"></i> Computadores</a>
+        </div>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+
+        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="../assets/img/banner3.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="../assets/img/banner2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="../assets/img/bannerp.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/i3.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Processador i3-9100F</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/processador.png" alt="">
+                          <strong>&nbsp;Processador:</strong>
+                          <span>&nbsp;Intel® Core i3-9100F</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">Clock:</span>
+                              &nbsp;3.6 Ghz / 4.20 Ghz
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Cache:</span>
+                              &nbsp;6 MB
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Núcleos Físicos:</span>
+                              &nbsp;4 / Threads: 4
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Socket:</span>
+                              &nbsp;1151
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Tipo de memória:</span>
+                              &nbsp;DDR4-2400/2133
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Arquitetura memória:</span>
+                              &nbsp;Dual-Channel
+                            </li>
+                          </ul>
+                        </div>
+                        
+
+                          <a href=><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/rtx2080.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">RTX 2080 Super 8GB</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/placadevideo.png" alt="">
+                          <strong>&nbsp;Placa de Video:</strong>
+                          <span>&nbsp;GeForce RTX 2080 SUPER 8GB GDDR6</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">Clock Básico:</span>
+                              &nbsp;1650 Mhz
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Boost Clock:</span>
+                              &nbsp;1815 MHz
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">NVIDIA CUDA Cores:</span>
+                              &nbsp;3072
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Suporte a RayTracing:</span>
+                              &nbsp;Sim
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Memória:</span>
+                              &nbsp;8GB GDDR6
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">DirectX:</span>
+                              &nbsp;12 API
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Entradas de video:</span><br>
+                              &nbsp;-DisplayPort 1.4<br>
+                              &nbsp;-HDMI 2.0b<br>
+                              &nbsp;-USB Type C
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Fonte recomendada:</span>
+                              &nbsp;650W 80 PLUS
+                            </li>
+                          </ul>
+                        </div>
+                        
+
+                        <a href= ><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/HyperXRAM.jpg"alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Memória RAM HyperX</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal2">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/ram.png" alt="">
+                          <strong>&nbsp;Memória RAM:</strong>
+                          <span>&nbsp;HyperX 8GB DDR4</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">Latência:</span>
+                              &nbsp;15-15-15-35
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Frequência:</span>
+                              &nbsp;DDR4 2400Mhz
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Tensão:</span>
+                              &nbsp;1.2V
+                            </li>
+                          </ul>
+                        </div>
+                        
+
+                        <a href=><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/placamae.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Placa mãe Intel Z390 High End</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal3">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto:</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/placamae.png" alt="">
+                          <strong>&nbsp;Placa mãe:</strong>
+                          <span>&nbsp;Intel Z390 High End</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">Especificações:</span><br>
+                              &nbsp;- Suporta a 8º e 9º geração dos processadores Intel® Core™<br>
+                              &nbsp;- Socket LGA 1151<br>
+                              &nbsp;- Max. Mem: 64GB 4266Mhz<br>
+                              &nbsp;- 1 x PCIe 3.0 x16<br>
+                              &nbsp;- 4 x Portas USB 2.0<br>
+                              &nbsp;- 4 x Portas USB 3.1 Gen 1<br>
+                              &nbsp;- 2 x Portas USB 3.1 Gen 2 tipo A<br>
+                              &nbsp;- 1 x Porta RJ-45<br>
+                              &nbsp;- 1 x Conector óptico de saída S / PDIF<br>
+                            </li>
+                        </div>
+                        
+
+                        <a href=><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/fonteIMG.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Fonte 400W 80 PLUS</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal4">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto:</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/fonte.png" alt="">
+                          <strong>&nbsp;Fonte:</strong>
+                          <span>&nbsp;400W 80 PLUS</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">APFC Fator:</span>
+                              &nbsp;Correção Ativo (PF> 0.99).
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Voltagem:</span>
+                              &nbsp;400 Watts Reais
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Tensão:</span>
+                              &nbsp;1.2V
+                            </li>
+                          </ul>
+                        </div>
+                        
+
+                        <a href=><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="../assets/img/ssdtop.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">SSD PARA PC M.2 240GB</a>
+                </h4>
+                <h5>$00.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+
+                <div class="container">
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal5">
+                    <i class="far fa-eye"></i> Detalhes
+                  </button>
+                
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal5">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Detalhes do produto:</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <img src="../assets/img/ssd.png" alt="">
+                          <strong>&nbsp;SSD:</strong>
+                          <span>&nbsp;SSD M.2 240GB</span> <br><br>
+
+                          <ul>
+                            <li>
+                              <span style="font-weight: 700;">Leitura sequencial:</span>
+                              &nbsp;550MB/s
+                            </li>
+                            <li>
+                              <span style="font-weight: 700;">Escrita sequencial:</span>
+                              &nbsp;350 MB/s
+                            </li>
+                          </ul>
+                        </div>
+                        
+                        <a href=><button type="button" class="btn btn-primary btn-block">Gostei desse!</button></a>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Henrique Roldão - 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+  </div>
+  <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+</body>
+</html>
