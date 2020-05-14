@@ -1,82 +1,210 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <title>TechRoom</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Techroom - Home</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <div class="jumbotron text-center" style="margin-bottom:0">
-      <h1>Tech Room</h1>
-      <p>Infogamer, o melhor do hardware para você</p> 
+  <!--================Header Menu Area =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand logo_h" href="index.html"><img src="" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a></li> 
+              <li class="nav-item"><a class="nav-link" href="pages/computadores.html"><i class="fas fa-desktop"></i> Computadores</a></li> 
+              <li class="nav-item"><a class="nav-link" href="pages/pecas.html"><i class="fas fa-cogs"></i> Peças</a>
+							</li>
+              <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-headphones-alt"></i> Contato</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
     </div>
   </header>
-  
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i> Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="pages/computadores.html"><i class="fas fa-desktop"></i> Computadores</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/pecas.html"><i class="fas fa-cogs"></i> Peças</a>
-        </li>   
-      </ul>
-    </div>  
-  </nav>
+  <!--================Header Menu Area =================-->
 
 
-  <main>
-    <div class="container" style="margin-top:30px">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>Sobre nós</h2>
-          <div class="fakeimg"><img class="img-fluid" src="assets/img/logoteste.jpg" alt="Logo da empresa"></div>
-          <p>Mensagem qualquer</p>
-          <h3>Nossas redes sociais</h3>
-          <p>Fique sempre ligado em novidades.</p>
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fab fa-facebook"></i> Facebook</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fab fa-instagram"></i> Instagram</a>
-            </li>
-          </ul>
-          <hr class="d-sm-none">
-        </div>
-        <div class="col-sm-8">
-          <h2>Titulo</h2>
-          <h5>Sub titulo - Opcional</h5>
-          <div class="fakeimg"><img class="img-fluid" src="assets/img/bannerp.png" alt="Banner de propaganda"></div>
-          <p>Algum texto sobre a imagem, teste, teste, teste, teste.</p>
-          <br>
-          <h2>Título</h2>
-          <h5>Sub titulo - Opcional</h5>
-          <div class="fakeimg"><img class="img-fluid" src="assets/img/bannerp.png" alt="Banner de propaganda"></div>
-          <p>Algum texto sobre a imagem, teste, teste, teste, teste.</p>
+  <main class="side-main">
+    <!--================ Hero sm Banner start =================-->      
+    <section class="hero-banner mb-30px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="assets/img/banner/hero-banner.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-5 pt-5">
+            <div class="hero-banner__content">
+              <h1>Techroom</h1>
+              <p>Infogamer, o melhor do hardware para você</p>
+              <a class="button bg" href="#">Confira já nossos produtos</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </section>
+    <!--================ Hero sm Banner end =================-->
 
-    <div class="jumbotron text-center" style="margin-bottom:0">
-      <p>Rodapé Teste</p>
-    </div>
+    <!--================ Feature section start =================-->      
+    <section class="section-margin">
+      <div class="container">
+        <div class="section-intro pb-85px text-center">
+          <h2 class="section-intro__title">Sobre nós</h2>
+          <p class="section-intro__subtitle">Sou uma empresa de um homem só, com um grande sonho de progredir para isso tento ao máximo conquistar cada cliente <i class="fas fa-heart"></i></p>
+        </div>
 
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="fas fa-desktop"></i>
+                </span>
+                <h3 class="card-feature__title">Computadores Gamers</h3>
+                <p class="card-feature__subtitle">Molestie lorem est faucibus faucibus erat phasellus placerat proin aptent</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="fas fa-cogs"></i>
+                </span>
+                <h3 class="card-feature__title">Peças Separadas</h3>
+                <p class="card-feature__subtitle">Molestie lorem est faucibus faucibus erat phasellus placerat proin aptent</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-feature text-center text-lg-left mb-4 mb-lg-0">
+                <span class="card-feature__icon">
+                  <i class="fas fa-headphones-alt"></i>
+                </span>
+                <h3 class="card-feature__title">Suporte ao cliente</h3>
+                <p class="card-feature__subtitle">Molestie lorem est faucibus faucibus erat phasellus placerat proin aptent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Feature section end =================-->      
+    
+    <!--================ about section start =================-->      
+    <section class="section-padding--small bg-magnolia">
+      <div class="container">
+        <div class="row no-gutters align-items-center">
+          <div class="col-md-5 mb-5 mb-md-0">
+            <div class="about__content">
+              <h2>Computadores Gamers</h2>
+              <p>Molestie lorem est faucibus Faucibus erat phasellus placerat proinint aptent pulvinar fusce nostra porta sem platea nec, donec fusce erat Molestie lorem est faucibus faucibus erat phasellus placerat proin aptent pulvinar fusce nostra port</p>
+              <a class="button button-light" href="pages/computadores.html">Conferir novidades</a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about__img">
+              <img class="img-fluid" src="assets/img/home/pc-about.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ about section end =================-->      
+    
+    <!--================ Offer section start =================-->      
+    <section class="section-margin">
+      <div class="container">
+        <div class="section-intro pb-85px text-center">
+          <h2 class="section-intro__title">Peças separadas</h2>
+          <p class="section-intro__subtitle">Fazemos a venda de peças separadas para você dar um upgrade monstro no seu PC.</p>
+        </div>
 
-</body>
-</html>
+        <div class="row">
+          <div class="col-lg-6">
+
+            <div class="row offer-single-wrapper">
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <img src="assets/img/processador.png" alt="">
+                  </span>
+                  <h4>Processador</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <img src="assets/img/placadevideo.png" alt="">
+                  </span>
+                  <h4>Placa de Vídeo</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row offer-single-wrapper">
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <img src="assets/img/ram.png" alt="">
+                  </span>
+                  <h4>Memória RAM</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 offer-single">
+                <div class="card offer-single__content text-center">
+                  <span class="offer-single__icon">
+                    <img src="assets/img/placamae.png" alt="">
+                  </span>
+                  <h4>Placa mãe</h4>
+                  <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                </div>
+              </div>
+              <a class="button button-light" href="pages/pecas.html">Abrir catálogo</a>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="offer-single__img">
+              <img class="img-fluid" src="assets/img/home/offer.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
